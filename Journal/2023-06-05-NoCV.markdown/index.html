@@ -553,19 +553,9 @@ const decode = codec.init(cryptoEngine).decode;
 /**
  * Initialize the staticrypt module, that exposes functions callbable by the password_template.
  *
- * @param {{
- *  staticryptEncryptedMsgUniqueVariableName: string,
- *  isRememberEnabled: boolean,
- *  rememberDurationInDays: number,
- *  staticryptSaltUniqueVariableName: string,
- * }} staticryptConfig - object of data that is stored on the password_template at encryption time.
+ * @param  staticryptConfig - object of data that is stored on the password_template at encryption time.
  *
- * @param {{
- *  rememberExpirationKey: string,
- *  rememberPassphraseKey: string,
- *  replaceHtmlCallback: function,
- *  clearLocalStorageCallback: function,
- * }} templateConfig - object of data that can be configured by a custom password_template.
+ * @param  templateConfig - object of data that can be configured by a custom password_template.
  */
 function init(staticryptConfig, templateConfig) {
     const exports = {};
