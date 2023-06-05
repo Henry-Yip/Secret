@@ -1,7 +1,7 @@
 var store = [{
-        "title": null,
+        "title": "Nocv.markdown",
         "excerpt":"                        Protected Page                                                                                                                                                                                                          Protected Page                                                                                                                                                                                                         Remember me                                                                                                                                ","categories": [],
-        "tags": null,
+        "tags": [],
         "url": "/Journal/2023-06-05-NoCV.markdown/",
         "teaser": "/assets/images/Teaser.png"
       },]
