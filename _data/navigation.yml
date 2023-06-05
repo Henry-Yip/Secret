@@ -1,0 +1,31 @@
+# main links
+main:
+  - title: "Splash Page"
+    url: /Secret/Splash/
+  - title: "Contributors"  
+    url:  /Secret/Contributors/  
+  - title: "Journal"
+    url:  /Secret/Journal/ 
+      
+Journal:
+  - title: Journal
+    children:
+      - title: "Christmas Holiday 2022/2023"
+        url:  /Secret/Journal/ChristmasHoliday/
+
+Contributors:
+  - title: Contributors
+    children:
+      - title: "Henry Yip"
+        url:  /Secret/Contributors/HenryYip/
+   
+
+
+  
+
+     
+
+
+
+
+     
