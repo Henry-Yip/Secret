@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+<p>&lt;!DOCTYPE html&gt;</p>
 <html class="staticrypt-html">
     <head>
         <meta charset="utf-8" />
@@ -162,13 +161,7 @@
                     <hr class="staticrypt-hr" />
 
                     <form id="staticrypt-form" action="#" method="post">
-                        <input
-                            id="staticrypt-password"
-                            type="password"
-                            name="password"
-                            placeholder="Password"
-                            autofocus
-                        />
+                        <input id="staticrypt-password" type="password" name="password" placeholder="Password" autofocus="" />
 
                         <label id="staticrypt-remember-label" class="staticrypt-remember hidden">
                             <input id="staticrypt-remember" type="checkbox" name="remember" />
@@ -554,19 +547,9 @@ const decode = codec.init(cryptoEngine).decode;
 /**
  * Initialize the staticrypt module, that exposes functions callbable by the password_template.
  *
- * @param {{
- *  staticryptEncryptedMsgUniqueVariableName: string,
- *  isRememberEnabled: boolean,
- *  rememberDurationInDays: number,
- *  staticryptSaltUniqueVariableName: string,
- * }} staticryptConfig - object of data that is stored on the password_template at encryption time.
+ * @param  staticryptConfig - object of data that is stored on the password_template at encryption time.
  *
- * @param {{
- *  rememberExpirationKey: string,
- *  rememberPassphraseKey: string,
- *  replaceHtmlCallback: function,
- *  clearLocalStorageCallback: function,
- * }} templateConfig - object of data that can be configured by a custom password_template.
+ * @param  templateConfig - object of data that can be configured by a custom password_template.
  */
 function init(staticryptConfig, templateConfig) {
     const exports = {};
